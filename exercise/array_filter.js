@@ -9,7 +9,7 @@
 // ----------------------------------------------------------
 // 2. Find all even values
 // const nums = [12, 13, 14, 15, 16, 17]
-// const even = nums.filter(v => v % 2 == 0);
+// const even = nums.filter(v => v % 2 === 0);
 // console.log(even);
 
 // // expected output: Array [12, 14, 16]
@@ -47,7 +47,7 @@ const hunters = [
     },
 ]
 
-const activeHunter = hunters.filter(v => v.status == 'active');
+const activeHunter = hunters.filter(v => v.status === 'active');
 console.log(activeHunter);
 // expected output: Array [
 //     {
